@@ -1,0 +1,26 @@
+#jumbotron-pic{
+    background-image: url("https://media.giphy.com/media/DDXGACa4EqpEY/giphy.gif");
+    background-size: cover;
+    min-height: 600px;
+}
+
+#jumbotronPicTwo{
+    background-image: url("https://media.giphy.com/media/OjICBN1eBO2jlQQidz/giphy.gif");
+    background-size: cover;
+    min-height: 600px;
+}
+
+
+p {
+      font-size: 40px;
+}
+
+#third {
+      letter-spacing: 15px;
+}
+
+a:link {color: black;} 
+a:visited {color: black;} 
+a:hover {color: black;} 
+a:active {color: black;} 
+a {text-decoration: none !important;}
