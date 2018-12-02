@@ -13,6 +13,3 @@ Making a one page band website that mixes a touch of minimalism and brutalism.
 
 **Andrew Zdunek** (https://github.com/ajzdunek)
 
-## Acknowledgments
-
-* Images taken from Unsplash
