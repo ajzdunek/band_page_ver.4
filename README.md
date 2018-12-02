@@ -1,6 +1,6 @@
 # Wasted Wish
 
-Making a one page band website that mixes a touch of minimalism and brutalism.
+Coding a one page band website that mixes a touch of minimalism and brutalism.
 
 ## Built With
 
