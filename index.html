@@ -18,16 +18,6 @@
     <nav class="navbar navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="index.html">Wasted Wish</a>
-            <div class="dropdown">
-                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     Other Projects
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="https://elementaj.bandcamp.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-bandcamp"></i> Elementaj</a>
-                      <a class="dropdown-item" href="https://soundcloud.com/azdemos/sets/silver-sail" target="_blank" rel="noopener noreferrer"><i class="fab fa-soundcloud"></i> Silver Sail</a>
-                      <a class="dropdown-item" href="https://soundcloud.com/azdemos/sets/stuff" target="_blank" rel="noopener noreferrer"><i class="fab fa-soundcloud"></i> Andrew Zdunek</a>
-                    </div>
-                  </div>
          </div>
     </nav>
     
@@ -117,7 +107,26 @@ For news and updates on this attempted project...
                             required="true">
                     </div>
 
-                    <button type="submit" value="submit" class="btn btn-lg btn-outline-dark">Submit</button>
+                    <button type="submit" value="submit" class="btn btn-lg btn-outline-dark" data-toggle="modal" data-target="#exampleModalCenter">Submit</button>
+
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">...</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              This newsletter is temporarily out of service. Please check back later.
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
 
                 </form>
             </div>
